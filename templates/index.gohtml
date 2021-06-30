@@ -1,0 +1,8 @@
+{{template "header"}}
+<form enctype="multipart/form-data"
+      action="/upload"
+      method="POST">
+    File: <input type="FILE" name="file"/>
+    <input type="submit" name="Upload" value="Upload" />
+</form>
+{{template "footer"}}
